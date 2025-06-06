@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Alfin</title>
+    <head>
+        <style>
+            .header{
+                text-align: center;
+                background-color: rgb(211, 227, 124);
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                color:black
+            }
+
+            .map{
+                text-align: center;
+            }
+
+            iframe{
+                width:800px;
+                height:800px;
+                border-radius: 0%;
+                border-style: inset;
+            }
+
+            .border{
+                border-bottom: 2px dashed black;
+                margin: 10px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Web Map Persebaran Kilang Minyak dan Jarak Aman Terhadap Penduduk Sekitar</h2>
+        </div>
+        <div class="border"></div>
+        <div class="map">
+          <iframe src="http://syaghaf.github.io/MINI-PROJECT/"></iframe>
+        </div>
+    </body>
+    </html>
